@@ -29,8 +29,11 @@ _Note 2 : difficulty increases exponentially for each character added (we sugges
 
 _Note 3 : if you want a case sensitive search, remove ```lower()``` in `if address.lower().startswith(prefix):`_
 
-Let this bad boy run for a while and you'll see the results (address + mnemonic) in 
-result.txt, remember that the time taken will depend on your CPU specs
+Once you're ready, start the script with 
+```
+python3 generator.py
+```
+Let this bad boy run for a while and you'll see your generated addresses appear. You can then find your seed phrase and address in result.txt, remember that the time taken will depend on your CPU specs
 ```
 cat result.txt
 ```
