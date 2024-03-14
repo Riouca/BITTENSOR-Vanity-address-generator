@@ -13,7 +13,7 @@ def generate_and_check_address(queue, counter):
             counter.value += 1
 
 def is_valid_address(address):
-    valid_prefixes = ["5coffee","5dude"]
+    valid_prefixes = ["5coffee","5dude","5etc"]
     for prefix in valid_prefixes:
         if address.lower().startswith(prefix):
             return True
