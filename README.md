@@ -1,7 +1,7 @@
 
 # Bittensor Vanity Address Generator
 
-First off install the dependecies
+First off install the dependencies
 ```
 sudo apt update
 sudo apt install python3
