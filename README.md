@@ -38,7 +38,7 @@ Let this bad boy run for a while and you'll see your generated addresses appear.
 cat result.txt
 ```
 
-Optional : if you're willing to find a really difficult one (7+ char prefixes), you can use pm2 to let it run a longer period of time
+- Optional : if you're willing to find a really difficult one (7+ char prefixes), you can use pm2 to let it run a longer period of time
 ```
 apt install npm
 npm install pm2 -g
