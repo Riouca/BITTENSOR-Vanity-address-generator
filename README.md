@@ -6,7 +6,7 @@ First off install the dependencies
 sudo apt update
 sudo apt install python3
 pip install substrate-interface==1.7.5
-sudo apt update nano
+sudo apt install nano
 ```
 
 Then let's get into the project and open generator.py
